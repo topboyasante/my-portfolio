@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,4 +8,7 @@
 
 .text-bn{
     font-family: 'Bebas Neue', cursive;
+}
+.text-cc{
+    font-family: 'Climate Crisis', cursive;
 }

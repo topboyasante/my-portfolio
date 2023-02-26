@@ -16,7 +16,7 @@ function Navbar() {
             <nav className='w-full h-[7vh] fixed top-0 left-0 p-5 shadow flex items-center justify-between z-[30] bg-[#111111]'>
                     {/* Logo */}
                     <Link href={`/`}>
-                        <p className='lg:text-2xl font-light'>nk.🏄🏾‍♂️</p>
+                        <p className='lg:text-2xl font-extrabold'>nk.🏄🏾</p>
                     </Link>
                    <section className='flex items-center gap-5'>
                          {/* Toggle Button */}

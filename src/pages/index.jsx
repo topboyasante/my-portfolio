@@ -1,10 +1,16 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Hero from '@/components/page-sections/home/Hero'
+import LoadingScreen from '@/components/page-sections/home/LoadingScreen'
+import { useEffect, useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const [loadScreen,setLoadScreen] = useState(true)
+  useEffect(()=>{
+    setTimeout(()=>setLoadScreen(false),5000)
+  })
   return (
     <>
       <Head>
@@ -14,6 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <LoadingScreen shouldLoad={loadScreen}/>
         <Hero/>
       </main>
     </>
