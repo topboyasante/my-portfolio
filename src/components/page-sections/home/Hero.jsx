@@ -11,7 +11,7 @@ function Hero() {
     function HeroAnimations(){
         gsap.registerPlugin(ScrollTrigger)
 
-        gsap.to(".name",{duration:3, opacity:'100%',stagger:0.25,delay:5});
+        gsap.to(".name",{duration:0.5, opacity:'100%',stagger:0.05,delay:2.5});
     }
 
     useEffect(()=>{
@@ -19,12 +19,12 @@ function Hero() {
     },[])
 
   return (
-   <main className='w-full h-screen pt-0 lg:pt-[10vh]'>
+   <main className='w-full h-full lg:h-[90vh] pt-[10vh]'>
         <section className='max-w-[1600px] mx-auto h-full p-5 flex flex-col justify-center'>
             
             <section className='lg:h-[30%]'>
                 <div className='flex flex-col md:flex-row md:items-center gap-2 md:gap-5'>
-                    <h1 className='text-bn text-[4em] md:text-[6em] lg:text-[8em]'>
+                    <h1 className='text-bn text-[1.5em] md:text-[3em] lg:text-[8em] tracking-wide'>
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">F</span>
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">R</span>
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">0</span>
@@ -35,7 +35,7 @@ function Hero() {
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">N</span>
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">D</span>
                     </h1>
-                    <h1 className='text-bn text-[4em] md:text-[6em] lg:text-[8em]'>
+                    <h1 className='text-bn text-[1.5em] md:text-[3em] lg:text-[8em] tracking-wide'>
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">D</span>
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">E</span>
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">V</span>
@@ -52,10 +52,10 @@ function Hero() {
             <hr className='border-[#777777]' />
 
             <section className='lg:w-[70%] py-5'>
-                <p className='md:text-xl lg:text-3xl font-extralight'>I'm a Frontend Developer providing exceptional web experiences to clients around the world. 
-                Currently, I'm focused on building responsive front-end web apps while learning C# for backend development.</p>
+                <p className='md:text-xl lg:text-2xl font-light'>I'm a Frontend Developer providing exceptional web experiences to clients around the world. 
+                Currently, I'm focused on building responsive front-end web apps, while learning C# for backend development, and Figma for design.</p>
                 <br />
-                <p className='md:text-xl lg:text-3xl font-extralight'>Within the year, I've worked on a ton of personal projects, and recently landed my first professional contract. 
+                <p className='md:text-xl lg:text-2xl font-light'>Within the year, I've worked on a ton of personal projects, and recently landed my first professional contract. 
                 I now spend time improving my skills through personal projects, tutorials and courses.</p>
             </section>
            
@@ -74,6 +74,7 @@ function Hero() {
                 </a>
             </section>
             
+
         </section>
    </main>
   )

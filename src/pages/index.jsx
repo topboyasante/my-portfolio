@@ -7,10 +7,14 @@ import { useEffect, useState } from 'react'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
   const [loadScreen,setLoadScreen] = useState(true)
   useEffect(()=>{
-    setTimeout(()=>setLoadScreen(false),5000)
+    setTimeout(()=>setLoadScreen(false),2500)
   })
+
+    
+
   return (
     <>
       <Head>
@@ -19,7 +23,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className={`${inter.className}`}>
         <LoadingScreen shouldLoad={loadScreen}/>
         <Hero/>
       </main>
