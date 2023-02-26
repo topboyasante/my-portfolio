@@ -11,7 +11,7 @@ function Hero() {
     function HeroAnimations(){
         gsap.registerPlugin(ScrollTrigger)
 
-        gsap.to(".name",{duration:3, opacity:'100%',stagger:0.25});
+        gsap.to(".name",{duration:3, opacity:'100%',stagger:0.25,delay:5});
     }
 
     useEffect(()=>{
