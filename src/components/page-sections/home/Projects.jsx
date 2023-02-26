@@ -7,7 +7,7 @@ import arx from '../../../../public/img/arx.png'
 function Projects() {
   return (
     <main className='w-full h-full'>
-        <section className='max-w-[1600px] mx-auto h-full p-5 flex flex-col lg:flex-row items-center gap-5'>
+        <section className='max-w-[1400px] mx-auto h-full p-5 flex flex-col lg:flex-row items-center gap-5'>
           <section className='font-light text-2xl lg:w-[20%]'>
             <p>Projects</p>
           </section>

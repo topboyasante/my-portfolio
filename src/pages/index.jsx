@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Hero from '@/components/page-sections/home/Hero'
-import Projects from '@/components/page-sections/home/Projects'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +15,6 @@ export default function Home() {
       </Head>
       <main>
         <Hero/>
-        <Projects/>
       </main>
     </>
   )
