@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Hero from '@/components/page-sections/home/Hero'
 import LoadingScreen from '@/components/page-sections/home/LoadingScreen'
 import { useEffect, useState } from 'react'
+import Projects from '@/components/page-sections/home/Projects'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,7 @@ export default function Home() {
       <main className={`${inter.className}`}>
         <LoadingScreen shouldLoad={loadScreen}/>
         <Hero/>
+        <Projects/>
       </main>
     </>
   )
