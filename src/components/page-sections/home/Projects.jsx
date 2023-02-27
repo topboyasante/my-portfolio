@@ -29,7 +29,7 @@ function Projects() {
                     projects.map((item)=>{
                       return(
                         <a href={item.link} target="_blank">
-                          <section className={`rounded p-5 hover:text-white ease duration-500`}>
+                          <section className={`rounded p-5 hover:text-white ease duration-500 bg-[#151515]`}>
                             <p className={`text-3xl md:text-5xl lg:text-8xl text-bn text-${item.align}`}>{item.name} - {item.type}</p>
                           </section>
                         </a>
