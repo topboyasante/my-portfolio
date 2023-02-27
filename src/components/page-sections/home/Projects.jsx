@@ -7,13 +7,13 @@ function Projects() {
       id:0,
       name:'JB Real Estate',
       type:'Web App',
-      link:'https://jbrealestatesandproperties.com',
+      link:'https://jbrealestateandproperties.com',
       align:'right'
     },
     {
       id:1,
       name:'The R Group',
-      link:'https://jbrealestatesandproperties.com',
+      link:'https://jbrealestateandproperties.com',
       type:'Web App',
       align:'left'
     },
@@ -24,7 +24,7 @@ function Projects() {
     <main className='w-full h-full'>
         <section className='max-w-[1600px] mx-auto h-full p-5'>
             <p className='text-bn text-2xl'>Completed Projects:</p>
-              <section>
+              <section className='flex flex-col gap-5'>
                   {
                     projects.map((item)=>{
                       return(
