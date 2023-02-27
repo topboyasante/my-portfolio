@@ -2,22 +2,22 @@ import Image from 'next/image'
 import React from 'react'
 
 function Projects() {
-  const projects =[
-    {
-      id:0,
-      name:'JB Real Estate',
-      type:'Web App',
-      link:'https://jbrealestateandproperties.com',
-      align:'right'
-    },
-    {
-      id:1,
-      name:'The R Group',
-      link:'https://jbrealestateandproperties.com',
-      type:'Web App',
-      align:'left'
-    },
-  ]
+  // const projects =[
+  //   {
+  //     id:0,
+  //     name:'JB Real Estate',
+  //     type:'Web App',
+  //     link:'https://jbrealestateandproperties.com',
+  //     align:'right'
+  //   },
+  //   {
+  //     id:1,
+  //     name:'The R Group',
+  //     link:'https://jbrealestateandproperties.com',
+  //     type:'Web App',
+  //     align:'left'
+  //   },
+  // ]
 
   return (
     
@@ -38,13 +38,13 @@ function Projects() {
                     })
                   } */}
                    <a href={'https://jbrealestateandproperties.com'} target="_blank">
-                          <section className={`rounded p-5 hover:text-white ease duration-500 bg-[#151515]`}>
-                            <p className={`text-3xl md:text-5xl lg:text-8xl text-bn text-right`}>{'JB Real Estate'} - {`Web App`}</p>
+                          <section className={`rounded p-5 hover:text-white ease duration-500 bg-[#121212]`}>
+                            <p className='text-3xl md:text-5xl lg:text-8xl text-bn text-right'>{'JB Real Estate'} - {`Web App`}</p>
                           </section>
                    </a>
                    <a href={'https://jbrealestateandproperties.com'} target="_blank">
-                          <section className={`rounded p-5 hover:text-white ease duration-500 bg-[#151515]`}>
-                            <p className={`text-3xl md:text-5xl lg:text-8xl text-bn text-left`}>{'The R Group'} - {`Web App`}</p>
+                          <section className={`rounded p-5 hover:text-white ease duration-500 bg-[#121212]`}>
+                            <p className='text-3xl md:text-5xl lg:text-8xl text-bn text-left'>{'The R Group'} - {`Web App`}</p>
                           </section>
                    </a>
               </section>
