@@ -24,8 +24,9 @@ function Projects() {
     <main className='w-full h-full'>
         <section className='max-w-[1600px] mx-auto h-full p-5'>
             <p className='text-bn text-2xl'>Completed Projects:</p>
-              <section className='flex flex-col gap-5'>
-                  {
+            <br />
+              <section className='flex flex-col gap-5 py-5'>
+                  {/* {
                     projects.map((item)=>{
                       return(
                         <a href={item.link} target="_blank">
@@ -35,7 +36,17 @@ function Projects() {
                         </a>
                       )
                     })
-                  }
+                  } */}
+                   <a href={'https://jbrealestateandproperties.com'} target="_blank">
+                          <section className={`rounded p-5 hover:text-white ease duration-500 bg-[#151515]`}>
+                            <p className={`text-3xl md:text-5xl lg:text-8xl text-bn text-right`}>{'JB Real Estate'} - {`Web App`}</p>
+                          </section>
+                   </a>
+                   <a href={'https://jbrealestateandproperties.com'} target="_blank">
+                          <section className={`rounded p-5 hover:text-white ease duration-500 bg-[#151515]`}>
+                            <p className={`text-3xl md:text-5xl lg:text-8xl text-bn text-left`}>{'The R Group'} - {`Web App`}</p>
+                          </section>
+                   </a>
               </section>
             <hr className='border-[#777777]' />
         </section>
