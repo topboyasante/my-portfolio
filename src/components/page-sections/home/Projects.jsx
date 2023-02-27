@@ -39,7 +39,7 @@ function Projects() {
                   } */}
                    <a href={'https://jbrealestateandproperties.com'} target="_blank">
                           <section className={`rounded p-5 hover:text-white ease duration-500 bg-[#121212]`}>
-                            <p className='text-3xl md:text-5xl lg:text-8xl text-bn text-right'>{'JB Real Estate'} - {`Web App`}</p>
+                            <p className='text-3xl md:text-5xl lg:text-8xl text-bn text-left lg:text-right'>{'JB Real Estate'} - {`Web App`}</p>
                           </section>
                    </a>
                    <a href={'https://arxarchitecture.netlify.app'} target="_blank">
