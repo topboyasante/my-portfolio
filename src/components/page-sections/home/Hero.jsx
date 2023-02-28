@@ -23,7 +23,7 @@ function Hero() {
         <section className='max-w-[1600px] mx-auto h-full p-5 flex flex-col justify-center'>
             
             <section className='lg:h-[30%]'>
-                <div className='flex flex-col md:flex-row md:items-center gap-2 md:gap-5'>
+                <div className='flex flex-row md:items-center gap-2 md:gap-5'>
                     <h1 className='text-bn text-[1.5em] md:text-[3em] lg:text-[8em] tracking-wide'>
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">F</span>
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">R</span>

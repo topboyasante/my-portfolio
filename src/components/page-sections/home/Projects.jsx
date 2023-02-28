@@ -23,7 +23,7 @@ function Projects() {
       description:`This is a personal project I took on to learn Vite JS. 
       I've always had a thing for architecture, and so I based this website on that. 
       Initially, the plan was to sell this as a template. But plans do change right?`,
-      tools:`For this Project, I used React, Vite JS, and Tailwind.`
+      tools:`For this Project, I used React, Vite JS, AOS, and Tailwind.`
     },
   ]
 
@@ -33,23 +33,24 @@ function Projects() {
         <section className='max-w-[1600px] mx-auto h-full p-5'>
             <p className='text-bn text-2xl md:text-3xl lg:text-5xl'>Completed Projects:</p>
             <br />
-              <section className='grid lg:grid-cols-3 gap-5 place-items-center'>
+              <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-3 '>
                   {
                     projects.map((item)=>{
                       return(
-                          <section className='rounded p-3 lg:p-5 hover:text-white ease duration-500 bg-[#141414]'>
+                          <section className='rounded p-4 lg:p-5 hover:text-white ease duration-500 bg-[#141414] w-full lg:h-[280px]'>
                             <p className='pb-2 text-[#999999]'>{item.name} - {item.type}</p>
                             <hr className='border-[#777777]'/>
                             <p className='pt-2 font-light'>{item.description}</p>
                             <br />
                             <p className='font-light'>{item.tools}</p>
                             <br />
-                            <a href={item.link} target="_blank" className='text-[#999999] font-extralight'>www.{item.url}</a>
+                            <a href={item.link} target="_blank" className='text-[#999999] font-extralight'>{item.url}</a>
                           </section>
                       )
                     })
                   }
               </section>
+              <hr className='border-[#777777] my-5'/>
         </section>
     </main>
   )
