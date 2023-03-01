@@ -20,7 +20,7 @@ function Hero() {
     },[])
 
   return (
-   <main className='w-full h-full lg:h-[100vh] pt-[10vh] lg:pt-0'>
+   <main className='w-full h-full  pt-[10vh]'>
         <section className='max-w-[1600px] mx-auto h-full p-5 flex flex-col justify-center'>
             
             <section className='lg:h-[30%]'>
@@ -50,7 +50,6 @@ function Hero() {
                 </div>
             </section>
 
-            <hr className='border-[#777777]' />
 
             <section className='lg:w-[70%] py-5'>
                 <p className='md:text-xl lg:text-2xl font-light hero-text opacity-0'>I'm a Frontend Developer providing exceptional web experiences to clients around the world. 
@@ -75,7 +74,7 @@ function Hero() {
                 </a>
             </section>
             
-
+            <hr className='border-[#777777] my-5' />
         </section>
    </main>
   )
