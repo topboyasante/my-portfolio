@@ -15,7 +15,7 @@ function LoadingScreen({shouldLoad}) {
   return (
     <>
       {shouldLoad? 
-        <main className='w-screen h-screen fixed bg-[#111111] top-0 left-0 z-[40] ease duration-[1000ms] flex justify-center items-center overflow-hidden'>
+        <main className='w-screen h-screen fixed bg-[#111111] top-0 left-0 z-[40] ease duration-[1000ms] flex justify-center items-center'>
           <p className="loading opacity-0 text-3xl md:text-5xl lg:text-8xl text-cc">asante.</p>
         </main>
       :
