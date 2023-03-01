@@ -12,6 +12,7 @@ function Hero() {
         gsap.registerPlugin(ScrollTrigger)
 
         gsap.to(".name",{duration:0.5, opacity:'100%',stagger:0.05,delay:2.5});
+        gsap.to(".hero-text",{duration:3, opacity:'100%',delay:2.5});
     }
 
     useEffect(()=>{
@@ -52,10 +53,10 @@ function Hero() {
             <hr className='border-[#777777]' />
 
             <section className='lg:w-[70%] py-5'>
-                <p className='md:text-xl lg:text-2xl font-light'>I'm a Frontend Developer providing exceptional web experiences to clients around the world. 
+                <p className='md:text-xl lg:text-2xl font-light hero-text opacity-0'>I'm a Frontend Developer providing exceptional web experiences to clients around the world. 
                 Currently, I'm focused on building responsive front-end web apps, while learning C# for backend development, and Figma for design.</p>
                 <br />
-                <p className='md:text-xl lg:text-2xl font-light'>Within the year, I've worked on a ton of personal projects, and recently landed my first professional contract. 
+                <p className='md:text-xl lg:text-2xl font-light hero-text opacity-0'>Within the year, I've worked on a ton of personal projects, and recently landed my first professional contract. 
                 I now spend time improving my skills through personal projects, tutorials and courses.</p>
             </section>
            

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.12",
     "gsap": "^3.11.4",
     "next": "13.2.1",
     "react": "18.2.0",

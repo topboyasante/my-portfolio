@@ -4,6 +4,7 @@ import Hero from '@/components/page-sections/home/Hero'
 import LoadingScreen from '@/components/page-sections/home/LoadingScreen'
 import { useEffect, useState } from 'react'
 import Projects from '@/components/page-sections/home/Projects'
+import Experience from '@/components/page-sections/Experience'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ export default function Home() {
         <LoadingScreen shouldLoad={loadScreen}/>
         <Hero/>
         <Projects/>
+        <Experience/>
       </main>
     </>
   )

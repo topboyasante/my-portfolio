@@ -1,0 +1,103 @@
+import React, { Fragment } from 'react'
+import { Tab } from '@headlessui/react'
+
+
+function Experience() {
+
+  const experienceDetails=[
+    {
+      id:0,
+      PlaceOfWork:'Axon Information Systems',
+      title:'Frontend Developer Intern',
+      duration:'Sep. 2022 - Jan. 2023',
+      description:[
+        {
+          id:1,
+          task:`
+          Worked with a team on a project to build a Blood Bank System primarily using JavaScript, React, Tailwind CSS.
+          Backend was built with C#.`
+        },
+        {
+          id:2,
+          task:`Tasked with building a template for the company's official website.`
+        }
+      ]
+    },
+    {
+      id:0,
+      PlaceOfWork:'JB Real Estates',
+      title:'Freelance Frontend Developer',
+      duration:'Sep. 2022 - Jan. 2023',
+      description:[
+        {
+          id:1,
+          task:`Built the Company's Official Website with React, Next JS, Tailwind and Sanity.`
+        },
+        {
+          id:2,
+          task:`Added APIs to build a booking system where potential customers can book to see properties.`
+        },
+      ]
+    },
+  ]
+
+  return (
+    <main className='w-full h-full'>
+      <section className='max-w-[1600px] mx-auto p-5 h-full'>
+        <p className='text-bn text-2xl md:text-3xl lg:text-5xl'>Experience:</p>
+        <br />
+        {/* Big Screens */}
+        <section>
+          <Tab.Group vertical>
+            <section className='flex justify-between items-center gap-5'>
+              <Tab.List className={`flex flex-col items-start lg:w-[20%] bg-[#121212] p-3 gap-5`}>
+
+                {
+                  experienceDetails.map((item)=>{
+                    return(
+                      <Tab as={Fragment} key={item.id}>
+                          {({ selected }) => (
+                            /* Use the `selected` state to conditionally style the selected tab. */
+                            <button
+                              className={
+                                selected ? 'text-white ease duration-500 outline-0' : 'ease duration-500 outline-0'
+                              }
+                            >
+                              <p>{item.PlaceOfWork}</p>
+                            </button>
+                          )}
+                        </Tab>
+                    )
+                  })
+                }
+
+              </Tab.List>
+              <Tab.Panels className={`lg:w-[70%]`}>
+                  {
+                    experienceDetails.map((item)=>{
+                      return(
+                        <Tab.Panel key={item.id}>
+                          <p>{item.title}</p>
+                          <p>{item.duration}</p>
+                          <hr className='border-[#777777] my-3'/>
+                          {item.description.map((item)=>{
+                            return(
+                              <li>{item.task}</li>
+                            )
+                          })}
+                        </Tab.Panel>
+                      )
+                    })
+                  }
+              </Tab.Panels>
+
+            </section>
+          </Tab.Group>
+        </section>
+
+      </section>
+    </main>
+  )
+}
+
+export default Experience

@@ -1,5 +1,7 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
+import { gsap } from "gsap";
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
 function Projects() {
   const projects =[
@@ -27,6 +29,22 @@ function Projects() {
     },
   ]
 
+  // function HeroAnimations(){
+  //   gsap.registerPlugin(ScrollTrigger)
+  //   gsap.to('.project-card',{
+  //     scrollTrigger:{
+  //       trigger:'.project-card',
+  //       toggleActions:'restart pause reverse none',
+  //       scrub:true
+  //     },
+  //     duration:5,
+  //   })
+  // }
+
+  // useEffect(()=>{
+  //     HeroAnimations()
+  // },[])
+
   return (
     
     <main className='w-full h-full'>
@@ -37,7 +55,7 @@ function Projects() {
                   {
                     projects.map((item)=>{
                       return(
-                          <section className='rounded p-4 lg:p-5 hover:text-white ease duration-500 bg-[#141414] w-full lg:h-[280px]'>
+                          <section className='rounded p-4 lg:p-5 hover:text-white ease duration-500 bg-[#141414] w-full lg:h-[280px] project-card'>
                             <p className='pb-2 text-[#999999]'>{item.name} - {item.type}</p>
                             <hr className='border-[#777777]'/>
                             <p className='pt-2 font-light'>{item.description}</p>
