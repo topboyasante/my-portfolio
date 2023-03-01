@@ -60,7 +60,7 @@ function Experience() {
                             /* Use the `selected` state to conditionally style the selected tab. */
                             <button
                               className={
-                                selected ? 'text-white ease duration-500 outline-none border-none appearance-none' : 'ease duration-500 outline-none border-none appearance-none'
+                                selected ? 'text-white ease duration-200 outline-none border-none appearance-none' : 'ease duration-200 outline-none border-none appearance-none'
                               }
                             >
                               <p>{item.PlaceOfWork}</p>
