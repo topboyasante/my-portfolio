@@ -21,7 +21,7 @@ function Hero() {
     },[])
 
   return (
-   <main className='w-full h-full  pt-[10vh]'>
+   <main className='w-full h-full  pt-[7vh]'>
         <section className='max-w-[1600px] mx-auto h-full p-5 flex flex-col justify-center'>
             
             {/* <section className='lg:h-[30%]'>
