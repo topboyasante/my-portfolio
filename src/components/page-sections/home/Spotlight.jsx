@@ -7,7 +7,7 @@ function Spotlight() {
       name:'Tesla Website',
       type:'UI Design',
       link:'https://www.figma.com/file/mIH7LdJJkRhQlVPvGcXHAR/Learn-Figma-in-2023?node-id=30%3A41&t=j7WVqfzUPzMwktnb-1',
-      description:`This project begins my journey as a UI Designer. Recently, it's been kind of hard to find design inspirations for my projects, so i decided to learn the basics of UI/UX.  
+      description:`This project begins my journey as a UI Designer. Recently, it's been kind of hard to find design inspirations for my projects, so I decided to learn the basics of UI/UX.  
       I made this UI Design of Tesla's website after completing a video tutorial I saw on youtube.`,
       tools:`The design was done with Figma.`
     },
