@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import {SlSocialLinkedin} from 'react-icons/sl'
 import {VscGithubAlt} from 'react-icons/vsc'
 import {SiHashnode,SiInstagram} from 'react-icons/si'
+import {SlSocialDribbble} from 'react-icons/sl'
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
@@ -11,7 +12,7 @@ function Hero() {
     function HeroAnimations(){
         gsap.registerPlugin(ScrollTrigger)
 
-        gsap.to(".name",{duration:0.5, opacity:'100%',stagger:0.05,delay:2.5});
+        // gsap.to(".name",{duration:0.5, opacity:'100%',stagger:0.05,delay:2.5});
         gsap.to(".hero-text",{duration:3, opacity:'100%',delay:2.5});
     }
 
@@ -23,7 +24,7 @@ function Hero() {
    <main className='w-full h-full  pt-[10vh]'>
         <section className='max-w-[1600px] mx-auto h-full p-5 flex flex-col justify-center'>
             
-            <section className='lg:h-[30%]'>
+            {/* <section className='lg:h-[30%]'>
                 <div className='flex flex-row md:items-center gap-2 md:gap-5'>
                     <h1 className='text-bn text-[1.5em] md:text-[3em] lg:text-[8em] tracking-wide'>
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">F</span>
@@ -48,11 +49,11 @@ function Hero() {
                         <span className="name opacity-0 hover:text-white ease duration-500 cursor-pointer">R</span>
                     </h1>
                 </div>
-            </section>
+            </section> */}
 
 
             <section className='lg:w-[70%] py-5'>
-                <p className='md:text-xl lg:text-2xl font-light hero-text opacity-0'>I'm a Frontend Developer providing exceptional web experiences to clients around the world. 
+                <p className='md:text-xl lg:text-2xl font-light hero-text opacity-0'>I'm a Frontend Engineer providing exceptional web experiences to clients around the world. 
                 Currently, I'm focused on building responsive front-end web apps, while learning C# for backend development, and Figma for design.</p>
                 <br />
                 <p className='md:text-xl lg:text-2xl font-light hero-text opacity-0'>Within the year, I've worked on a ton of personal projects, and recently landed my first professional contract. 
@@ -72,9 +73,12 @@ function Hero() {
                 <a href="https://www.instagram.com/topboyasante_/" target="_blank" className='lg:text-2xl hover:text-white ease duration-500'>
                     <SiInstagram/>
                 </a>
+                <a href="https://dribbble.com/topboyasante" target="_blank" className='lg:text-2xl hover:text-white ease duration-500'>
+                    <SlSocialDribbble/>
+                </a>
             </section>
-            
-            <hr className='border-[#777777] my-5' />
+            <br />
+            <hr className='border-[#777777]' />
         </section>
    </main>
   )

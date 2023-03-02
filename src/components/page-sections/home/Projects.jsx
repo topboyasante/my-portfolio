@@ -68,7 +68,8 @@ function Projects() {
                     })
                   }
               </section>
-              <hr className='border-[#777777] my-5'/>
+              <br />
+              <hr className='border-[#777777]'/>
         </section>
     </main>
   )

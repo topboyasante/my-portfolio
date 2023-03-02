@@ -23,12 +23,21 @@ function Navbar() {
                         <AiOutlineMenu size={30} onClick={toggleNavbar}/>
                    </section>
             </nav>
+
             <section className={navIsToggled?'w-screen h-screen fixed bg-[#121212] top-0 left-0 ease duration-[800ms] z-[50] p-5'
             :'w-screen h-screen fixed bg-[#111111] top-[-100vh] left-0 ease duration-[800ms] z-[50] p-5'}>
-              <section className='flex justify-end p-5'>
+              <section className='flex justify-between p-5'>
+                  <a href={`/`}>
+                        <p className='lg:text-2xl font-extrabold'>nk.🏄🏾</p>
+                  </a>
                 <AiOutlineClose size={30} onClick={toggleNavbar}/>
               </section> 
-              <hr />               
+              <hr /> 
+              <section className='flex justify-center items-center h-[90vh]'>
+                <a rel="stylesheet" href="#">
+                  <p className='text-3xl text-cc hover:text-white ease duration-500'>My Resume</p>
+                </a>
+              </section>              
             </section>
         </>
   )
