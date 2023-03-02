@@ -24,9 +24,25 @@ function Experience() {
       ]
     },
     {
-      id:0,
+      id:1,
+      PlaceOfWork:'The R Group',
+      title:'Freelance Frontend Engineer',
+      duration:'Sep. 2022 - Jan. 2023',
+      description:[
+        {
+          id:1,
+          task:`Built the Company's Official Website with React, Next JS, Tailwind and Sanity.`
+        },
+        {
+          id:2,
+          task:`Added APIs to build a booking system where clients can book consultation sessions.`
+        },
+      ]
+    },
+    {
+      id:2,
       PlaceOfWork:'JB Real Estates',
-      title:'Freelance Frontend Developer',
+      title:'Freelance Frontend Engineer',
       duration:'Sep. 2022 - Jan. 2023',
       description:[
         {
@@ -47,10 +63,10 @@ function Experience() {
         <p className='text-bn text-2xl md:text-3xl lg:text-5xl'>Experience:</p>
         <br />
         {/* Big Screens */}
-        <section>
+        <section className='w-full h-full'>
           <Tab.Group vertical>
-            <section className='flex justify-between items-center gap-5'>
-              <Tab.List className={`flex flex-col items-start lg:w-[20%] bg-[#121212] p-3 gap-5`}>
+            <section className='flex justify-between items-center gap-5 h-full'>
+              <Tab.List className={`flex flex-col items-start lg:w-[30%] bg-[#121212] p-3 gap-5`}>
 
                 {
                   experienceDetails.map((item)=>{
@@ -60,7 +76,7 @@ function Experience() {
                             /* Use the `selected` state to conditionally style the selected tab. */
                             <button
                               className={
-                                selected ? 'text-white ease duration-200 outline-none border-none appearance-none' : 'ease duration-200 outline-none border-none appearance-none'
+                                selected ? 'text-white ease duration-200 outline-none border-none appearance-none text-sm lg:text-lg' : 'ease duration-200 outline-none border-none appearance-none text-sm lg:text-lg'
                               }
                             >
                               <p>{item.PlaceOfWork}</p>
@@ -82,7 +98,7 @@ function Experience() {
                           <hr className='border-[#777777] my-3'/>
                           {item.description.map((item)=>{
                             return(
-                              <li>{item.task}</li>
+                              <li key={item.id}>{item.task}</li>
                             )
                           })}
                         </Tab.Panel>
@@ -94,7 +110,7 @@ function Experience() {
             </section>
           </Tab.Group>
         </section>
-
+        <hr className='border-[#777777] my-5'/>
       </section>
     </main>
   )

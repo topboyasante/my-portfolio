@@ -4,7 +4,9 @@ import Hero from '@/components/page-sections/home/Hero'
 import LoadingScreen from '@/components/page-sections/home/LoadingScreen'
 import { useEffect, useState } from 'react'
 import Projects from '@/components/page-sections/home/Projects'
-import Experience from '@/components/page-sections/Experience'
+import Experience from '@/components/page-sections/home/Experience'
+import Spotlight from '@/components/page-sections/home/Spotlight'
+import Contact from '@/components/page-sections/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,6 +32,8 @@ export default function Home() {
         <Hero/>
         <Projects/>
         <Experience/>
+        <Spotlight/>
+        <Contact/>
       </main>
     </>
   )

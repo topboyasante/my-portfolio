@@ -55,21 +55,20 @@ function Projects() {
                   {
                     projects.map((item)=>{
                       return(
-                          <section className='rounded p-4 lg:p-5 hover:text-white ease duration-500 bg-[#141414] w-full lg:h-[280px] project-card'>
+                          <section className='cursor-pointer rounded p-4 lg:p-5 hover:scale-105 ease duration-500 bg-[#141414] w-full lg:h-[280px] project-card'>
                             <p className='pb-2 text-[#999999]'>{item.name} - {item.type}</p>
                             <hr className='border-[#777777]'/>
                             <p className='pt-2 font-light'>{item.description}</p>
                             <br />
                             <p className='font-light'>{item.tools}</p>
                             <br />
-                            <a href={item.link} target="_blank" className='text-[#999999] font-extralight'>{item.url}</a>
+                            <a href={item.link} target="_blank" className='text-[#999999] font-extralight hover:text-white ease duration-500'>{item.url}</a>
                           </section>
                       )
                     })
                   }
               </section>
-              <br />
-              <hr className='border-[#777777]'/>
+              <hr className='border-[#777777] my-5'/>
         </section>
     </main>
   )
