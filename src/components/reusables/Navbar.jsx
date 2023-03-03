@@ -21,7 +21,7 @@ function Navbar() {
                    <section className='flex items-center gap-5'>
                          {/* Toggle Button */}
                         {/* <AiOutlineMenu size={30} onClick={toggleNavbar}/> */}
-                        <a href="#">
+                        <a href="https://docs.google.com/document/d/1EMBw7pgendo8UUvKk6UT8Xqf6Pf3uZPTzwOVlm5zG6Q/edit?usp=sharing">
                           <p className='border px-2 py-1 border-[#777777] rounded hover:text-white ease duration-500'>Resume</p>
                         </a>
                    </section>
