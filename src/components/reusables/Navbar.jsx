@@ -20,7 +20,10 @@ function Navbar() {
                     </Link>
                    <section className='flex items-center gap-5'>
                          {/* Toggle Button */}
-                        <AiOutlineMenu size={30} onClick={toggleNavbar}/>
+                        {/* <AiOutlineMenu size={30} onClick={toggleNavbar}/> */}
+                        <a href="#">
+                          <p className='border px-2 py-1 border-[#777777] rounded hover:text-white ease duration-500'>Resume</p>
+                        </a>
                    </section>
             </nav>
 
