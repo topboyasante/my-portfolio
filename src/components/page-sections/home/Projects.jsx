@@ -62,7 +62,7 @@ function Projects() {
                             <br />
                             <p className='font-light'>{item.tools}</p>
                             <br />
-                            <a href={item.link} target="_blank" className='text-[#999999] font-extralight hover:text-white ease duration-500'>{item.url}</a>
+                            <a href={item.link} target="_blank" className='text-[#999999] font-extralight hover:text-white ease duration-500 underline underline-offset-8'>{item.url}</a>
                           </section>
                       )
                     })
