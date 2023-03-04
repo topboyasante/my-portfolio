@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,4 +12,7 @@
 }
 .text-cc{
     font-family: 'Climate Crisis', cursive;
+}
+.text-syne{
+    font-family: 'Syne', sans-serif;
 }

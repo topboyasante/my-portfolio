@@ -21,13 +21,14 @@ function Navbar() {
                    <section className='flex items-center gap-5'>
                          {/* Toggle Button */}
                         {/* <AiOutlineMenu size={30} onClick={toggleNavbar}/> */}
-                        <a href="https://docs.google.com/document/d/1EMBw7pgendo8UUvKk6UT8Xqf6Pf3uZPTzwOVlm5zG6Q/edit?usp=sharing">
-                          <p className='border px-2 py-1 border-[#777777] rounded hover:text-white ease duration-500'>Resume</p>
+                        <a href="https://docs.google.com/document/d/1EMBw7pgendo8UUvKk6UT8Xqf6Pf3uZPTzwOVlm5zG6Q/edit?usp=sharing" 
+                        className='border border-[#777777] rounded  hover:text-white ease duration-500 hover:border-white hover:scale-105'>
+                          <p className='px-2 py-1'>Resume</p>
                         </a>
                    </section>
             </nav>
 
-            <section className={navIsToggled?'w-screen h-screen fixed bg-[#121212] top-0 left-0 ease duration-[800ms] z-[50] p-5'
+            {/* <section className={navIsToggled?'w-screen h-screen fixed bg-[#121212] top-0 left-0 ease duration-[800ms] z-[50] p-5'
             :'w-screen h-screen fixed bg-[#111111] top-[-100vh] left-0 ease duration-[800ms] z-[50] p-5'}>
               <section className='flex justify-between p-5'>
                   <a href={`/`}>
@@ -41,7 +42,7 @@ function Navbar() {
                   <p className='text-3xl text-cc hover:text-white ease duration-500'>My Resume</p>
                 </a>
               </section>              
-            </section>
+            </section> */}
         </>
   )
 }

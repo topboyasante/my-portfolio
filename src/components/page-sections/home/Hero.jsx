@@ -50,7 +50,9 @@ function Hero() {
                     </h1>
                 </div>
             </section> */}
-
+            
+            <p className='text-syne text-2xl md:text-3xl lg:text-5xl hero-text'>🇬🇭 | Hello! I'm Nana Kwasi.</p>
+        
 
             <section className='lg:w-[70%] py-5'>
                 <p className='md:text-xl lg:text-2xl font-light hero-text opacity-0'>I'm a Frontend Engineer providing exceptional web experiences to clients around the world. 

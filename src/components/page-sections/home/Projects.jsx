@@ -49,7 +49,7 @@ function Projects() {
     
     <main className='w-full h-full'>
         <section className='max-w-[1600px] mx-auto h-full p-5'>
-            <p className='text-bn text-2xl md:text-3xl lg:text-5xl'>Completed Projects:</p>
+            <p className='text-syne text-2xl md:text-3xl lg:text-5xl'>🛠️ | Completed Projects:</p>
             <br />
               <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-3 '>
                   {
