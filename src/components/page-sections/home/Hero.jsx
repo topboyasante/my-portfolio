@@ -51,7 +51,7 @@ function Hero() {
                 </div>
             </section> */}
             
-            <p className='text-syne text-2xl md:text-3xl lg:text-5xl hero-text'>🇬🇭 | Hello! I'm Nana Kwasi.</p>
+            <p className='text-syne text-2xl md:text-3xl lg:text-5xl hero-text text-[#dad9d9]'>🇬🇭 | Hello! I'm Nana Kwasi.</p>
         
 
             <section className='lg:w-[70%] py-5'>

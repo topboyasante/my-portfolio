@@ -60,7 +60,7 @@ function Experience() {
   return (
     <main className='w-full h-full'>
       <section className='max-w-[1600px] mx-auto p-5 h-full'>
-        <p className='text-syne text-2xl md:text-3xl lg:text-5xl'>📌 | Experience:</p>
+        <p className='text-syne text-2xl md:text-3xl lg:text-5xl text-[#dad9d9]'>📌 | Experience:</p>
         <br />
         {/* Big Screens */}
         <section className='w-full h-full'>

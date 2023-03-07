@@ -25,7 +25,7 @@ function Spotlight() {
   return (
     <main className='w-full h-full'>
         <section className='max-w-[1600px] mx-auto p-5 h-full'>
-        <p className='text-syne text-2xl md:text-3xl lg:text-5xl'>✨ | Spotlight:</p>
+        <p className='text-syne text-2xl md:text-3xl lg:text-5xl text-[#dad9d9]'>✨ | Spotlight:</p>
         <br />
         <p>Welcome to the section for my finished/unfinished, 'but have potential' projects 😉</p>
         <br />
