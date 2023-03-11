@@ -28,17 +28,6 @@ function Projects() {
       Initially, the plan was to sell this as a template. But plans do change right?`,
       tools:`For this Project, I used React, Vite JS, AOS, and Tailwind.`
     },
-    {
-      id:2,
-      name:'Mystic Mountains',
-      type:'Landing Page',
-      link:'https://fear-occur-888313.framer.app/',
-      url:'fear-occur-888313.framer.app',
-      description:`This project was to prepare me for an upcoming gig. 
-      The Client wants to be able to manage the site fully after completion, so I suggested that we use Framer or Webflow. 
-      I really like the Framer UI, So that's what I'm going to use!`,
-      tools:`For this Project, I used Framer.`
-    },
   ]
 
   // function HeroAnimations(){
