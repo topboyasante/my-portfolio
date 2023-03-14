@@ -28,6 +28,17 @@ function Projects() {
       Initially, the plan was to sell this as a template. But plans do change right?`,
       tools:`For this Project, I used React, Vite JS, AOS, and Tailwind.`
     },
+    {
+      id:2,
+      name:'Hostel Management System',
+      type:'Web App',
+      link:'https://github.com/topboyasante/hostel-mgt-sys',
+      url:'github.com/topboyasante/hostel-mgt-sys',
+      description:`My Goal as a web engineer is to be able to build systems, 
+      and this project begins my journey on that. This app can be used by hostels to track their tenants, and rooms. 
+      It's still a work in progress, but feel free to check out what I've done so far!`,
+      tools:`For this Project, I used React, Vite JS, and Firebase.`
+    },
   ]
 
   // function HeroAnimations(){

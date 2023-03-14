@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import Projects from '@/components/page-sections/home/Projects'
 import Experience from '@/components/page-sections/home/Experience'
 import Spotlight from '@/components/page-sections/home/Spotlight'
-import Contact from '@/components/page-sections/Contact'
+import Contact from '@/components/page-sections/home/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
