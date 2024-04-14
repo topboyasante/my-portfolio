@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <div className="pb-[10vh]">
       <div>
-        <p className="text-neutral-500 text-sm">Hi! I'm Nana Kwasi.</p>
+        <p className="text-neutral-500 text-sm">Hi! I&apos;m Nana Kwasi.</p>
         <h1 className="mt-2">
           Software Engineer,
           <br />
@@ -16,8 +16,8 @@ function HeroSection() {
       <br />
       <div>
         <p>
-          I'm a final-year Metallurgical Engineering student at KNUST. Beyond my
-          studies, I'm a Software Engineer, currently focusing on Front-End
+          I&apos;m a final-year Metallurgical Engineering student at KNUST. Beyond my
+          studies, I&apos;m a Software Engineer, currently focusing on Front-End
           Development and Golang.
         </p>
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-5 my-5">
