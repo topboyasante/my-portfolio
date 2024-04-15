@@ -13,7 +13,7 @@ function ExperienceSection() {
           target="_blank"
           className="text-neutral-500 underline hover:text-black ease-in-out duration-500"
         >
-          <p className="text-sm">See More</p>
+          <p className="text-sm">My Resume</p>
         </Link>
       </div>
       <br />
