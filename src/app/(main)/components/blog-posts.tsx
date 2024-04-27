@@ -21,7 +21,7 @@ async function BlogPosts() {
         {recentBlogs.map((item) => {
           return (
             <Link href={`/blog/${item.slug}`} key={item.slug}>
-              <div className="border-b py-5 hover:scale-[1.02] ease-in-out duration-500">
+              <div className="border-b border-b-neutral-500 py-5 hover:scale-[1.02] ease-in-out duration-500">
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
                   <h5>{item.frontmatter.title}</h5>
                 </div>

@@ -21,7 +21,7 @@ function ExperienceSection() {
         {WORK_EXPERIENCE.map((item) => {
           return (
             <Link href={`${item.company_website}`} key={item.id}>
-              <div className="border-b py-5 hover:scale-[1.02] ease-in-out duration-500">
+              <div className="border-b border-b-neutral-500 py-5 hover:scale-[1.02] ease-in-out duration-500">
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
                   <h5>{item.company_name}</h5>
                   <p className="text-neutral-500 text-sm">{item.duration}</p>

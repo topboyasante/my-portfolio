@@ -1,4 +1,5 @@
 import { PROJECTS } from "@/db/projects";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -20,7 +21,7 @@ function ProjectSection() {
         {PROJECTS.map((item) => {
           return (
             <Link href={`${item.href}`} key={item.id}>
-              <div className="border-b py-5 hover:scale-[1.02] ease-in-out duration-500">
+              <div className="border-b border-b-neutral-500 py-5 hover:scale-[1.02] ease-in-out duration-500">
                 <h5>{item.name}</h5>
                 <p className="text-neutral-500">{item.about}</p>
                 <div className="mt-3 flex items-center gap-3 flex-wrap">
@@ -31,6 +32,10 @@ function ProjectSection() {
                       </p>
                     );
                   })}
+                </div>
+                <br />
+                <div>
+                  <Image src={item.img} alt={item.name}/>
                 </div>
               </div>
             </Link>

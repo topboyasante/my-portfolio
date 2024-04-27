@@ -8,8 +8,8 @@ function HomePage() {
   return (
     <div>
       <HeroSection />
-      <BlogPosts/>
       <ProjectSection />
+      <BlogPosts />
       <ExperienceSection />
     </div>
   );

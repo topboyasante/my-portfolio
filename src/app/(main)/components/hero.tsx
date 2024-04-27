@@ -23,7 +23,7 @@ function HeroSection() {
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-5 my-5">
           <Link href={"mailto:asantekwasi101@gmail.com"} target="_blank">
             <button className="btn rounded-full">
-              <div className="w-2 h-2 bg-white rounded-full"></div>
+              <div className="w-2 h-2 bg-white dark:bg-black rounded-full"></div>
               <p className="text-sm mt-0">Available for work</p>
               <BiChevronRight />
             </button>
