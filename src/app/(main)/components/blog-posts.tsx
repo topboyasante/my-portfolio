@@ -11,7 +11,7 @@ async function BlogPosts() {
         <h4>Recent Posts</h4>
         <Link
           href={"/blog"}
-          className="text-neutral-500 underline hover:text-black ease-in-out duration-500"
+          className="text-neutral-500 underline  hover:text-black dark:hover:text-white ease-in-out duration-500"
         >
           <p className="text-sm">View Posts</p>
         </Link>

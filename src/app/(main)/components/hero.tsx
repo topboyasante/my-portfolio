@@ -17,7 +17,7 @@ function HeroSection() {
       <div>
         <p>
           I&apos;m a final-year Metallurgical Engineering student at KNUST. Beyond my
-          studies, I&apos;m a Software Engineer, currently focusing on Front-End
+          studies, I&apos;m a Software Engineer, currently transitioning to Backend
           Development and Golang.
         </p>
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-5 my-5">

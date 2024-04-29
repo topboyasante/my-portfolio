@@ -11,7 +11,7 @@ function ProjectSection() {
         <Link
           href={"https://github.com/topboyasante"}
           target="_blank"
-          className="text-neutral-500 underline hover:text-black ease-in-out duration-500"
+          className="text-neutral-500 underline hover:text-black dark:hover:text-white ease-in-out duration-500"
         >
           <p className="text-sm">My Github</p>
         </Link>
@@ -35,7 +35,7 @@ function ProjectSection() {
                 </div>
                 <br />
                 <div>
-                  <Image src={item.img} alt={item.name}/>
+                  <Image src={item.img} alt={item.name} className="rounded-xl"/>
                 </div>
               </div>
             </Link>

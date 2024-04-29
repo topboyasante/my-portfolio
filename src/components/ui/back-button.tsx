@@ -7,7 +7,10 @@ function BackButton() {
   const router = useRouter();
   return (
     <div className="my-5">
-      <button className="btn bg-transparent text-black border rounded-full" onClick={() => router.back()}>
+      <button
+        className="btn bg-transparent text-black dark:text-white border rounded-full"
+        onClick={() => router.back()}
+      >
         <BiChevronLeft />
       </button>
     </div>
