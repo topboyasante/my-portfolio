@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 @layer base {
   body {
-    @apply bg-white text-black dark:bg-black dark:text-white
+    @apply bg-white text-black dark:bg-[#090909] dark:text-white
   }
   h1 {
     @apply scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl;

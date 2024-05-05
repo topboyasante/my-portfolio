@@ -1,8 +1,6 @@
-import React from "react";
+import BlogPosts from "./components/blog-posts";
 import HeroSection from "./components/hero";
 import ProjectSection from "./components/projects";
-import ExperienceSection from "./components/experience";
-import BlogPosts from "./components/blog-posts";
 
 function HomePage() {
   return (
@@ -10,7 +8,6 @@ function HomePage() {
       <HeroSection />
       <ProjectSection />
       <BlogPosts />
-      <ExperienceSection />
     </div>
   );
 }

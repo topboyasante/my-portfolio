@@ -17,13 +17,14 @@ function ProjectSection() {
         </Link>
       </div>
       <br />
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {PROJECTS.map((item) => {
           return (
             <Link href={`${item.href}`} key={item.id}>
-              <div className="border-b border-b-neutral-500 py-5 hover:scale-[1.02] ease-in-out duration-500">
+              <div className="border border-neutral-500 p-5 rounded-md hover:scale-[1.02] ease-in-out duration-500">
                 <h5>{item.name}</h5>
-                <p className="text-neutral-500">{item.about}</p>
+                <br />
+                <p className="text-neutral-500 text-sm">{item.about}</p>
                 <div className="mt-3 flex items-center gap-3 flex-wrap">
                   {item.stack.map((item, index) => {
                     return (
@@ -32,10 +33,6 @@ function ProjectSection() {
                       </p>
                     );
                   })}
-                </div>
-                <br />
-                <div>
-                  <Image src={item.img} alt={item.name} className="rounded-xl"/>
                 </div>
               </div>
             </Link>
