@@ -8,7 +8,7 @@
 
 @layer base {
   body {
-    @apply bg-white text-black dark:bg-[#090909] dark:text-white
+    @apply bg-white text-black
   }
   h1 {
     @apply scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl;
@@ -29,12 +29,12 @@
     @apply scroll-m-20 text-sm font-semibold tracking-tight;
   }
   p {
-    @apply leading-7;
+    @apply leading-7 font-extralight text-sm;
   }
 }
 
 @layer components {
   .btn {
-    @apply bg-black text-white dark:bg-white dark:text-black px-4 py-2 flex gap-3 items-center hover:scale-105 ease-in-out duration-500 hover:shadow-md;
+    @apply bg-black text-white px-4 py-2 flex gap-3 items-center hover:scale-105 ease-in-out duration-500 hover:shadow-md;
   }
 }

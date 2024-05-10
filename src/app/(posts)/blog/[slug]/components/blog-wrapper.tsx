@@ -10,7 +10,7 @@ function BlogWrapper({ ...props }: Props) {
   return (
     <main className="my-5">
       <div>
-        <h3>{props.title}</h3>
+        <h5>{props.title}</h5>
         <p className="text-neutral-500">{props.publishDate}</p>
       </div>
       <hr className="my-5" />
