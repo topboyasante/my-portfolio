@@ -1,26 +1,46 @@
 import Link from "next/link";
-import { BiChevronRight } from "react-icons/bi";
-import { SiDevdotto, SiFiles, SiGithub } from "react-icons/si";
+import { BiEnvelope } from "react-icons/bi";
+import { IoIosDocument } from "react-icons/io";
+import { SiDevdotto, SiGithub } from "react-icons/si";
 
 function HeroSection() {
   return (
     <div className="pb-[10vh]">
       <div>
-        <p className="font-semibold">🥷🏾 Hi! I&apos;m Nana Kwasi.</p>
+        <h2 className="font-semibold">Nana Kwasi Asante</h2>
+        <p className="text-neutral-500">
+          Software Engineer • Golang • JavaScript
+        </p>
+        <p className="text-neutral-500">🇬🇭 Accra, Ghana</p>
       </div>
       <br />
       <div>
         <p>
-          I&apos;m a final-year Metallurgical Engineering student at KNUST.
-          Beyond my studies, I write code with JavaScript and Go.
+          Final-year Metallurgical Engineering student at KNUST. Beyond my
+          studies, I&apos;m a software engineer, writing code with JavaScript
+          and Go.
         </p>
         <br />
-        <p>Interests := Backend, Cloud, Game Dev</p>
+        <p>
+          Currently, I&apos;m exploring the world of Backend and Cloud. When
+          I&apos;m not writing code, or buried in my books, you&apos;d find me
+          finishing up an episode or two of{" "}
+          <Link
+            target="_blank"
+            href={
+              "https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TKrIsjTLszQwYPQSTkktzkzPSyxJTVEoLi0qyyzLLwIAyo8MHw&q=designated+survivor&oq=designated+survivor&sourceid=chrome&ie=UTF-8"
+            }
+            className="underline"
+          >
+            Designated Survivor
+          </Link>
+          .
+        </p>
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-5 my-5">
           <Link href={"mailto:asantekwasi101@gmail.com"} target="_blank">
             <button className="btn rounded-full">
-              <BiChevronRight />
-              <p className="text-sm mt-0">contact 🫵🏾</p>
+              <BiEnvelope />
+              <p className="text-sm mt-0">contact</p>
             </button>
           </Link>
           <div className="flex items-center gap-5">
@@ -45,7 +65,7 @@ function HeroSection() {
               target="_blank"
               className="text-2xl"
             >
-              <SiFiles />
+              <IoIosDocument />
             </Link>
           </div>
         </div>

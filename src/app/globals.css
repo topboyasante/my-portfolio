@@ -8,7 +8,7 @@
 
 @layer base {
   body {
-    @apply bg-white text-black
+    @apply bg-white text-[#232426]
   }
   h1 {
     @apply scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl;
@@ -29,7 +29,7 @@
     @apply scroll-m-20 text-sm font-semibold tracking-tight;
   }
   p {
-    @apply leading-7 font-extralight text-sm;
+    @apply leading-7 font-light text-sm;
   }
 }
 

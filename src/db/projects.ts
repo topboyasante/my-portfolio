@@ -4,6 +4,7 @@ export const PROJECTS = [
     name: "Adolf",
     about: "CLI application that bootstraps a backend application in go.",
     href: "https://github.com/topboyasante/adolf",
+    href_text: "Github",
     stack: ["Go"],
   },
   {
@@ -11,6 +12,7 @@ export const PROJECTS = [
     name: "EasySell",
     about: "Minimalist E-Commerce solution for small businesses.",
     href: "https://easysell.vercel.app/",
+    href_text: "easysell.vercel.app",
     stack: ["React", "NextJS", "Prisma"],
   },
 ];

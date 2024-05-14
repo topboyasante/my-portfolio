@@ -3,8 +3,8 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="fixed w-full h-[5vh] my-5">
-      <nav className="flex justify-between items-center max-w-2xl mx-auto h-full px-6">
+    <div className="fixed w-full h-[7vh] bg-white">
+      <nav className="flex justify-between items-center max-w-3xl mx-auto h-full px-6 py-3">
         <div>nk.</div>
         <div className="bg-black text-white rounded-full px-3 py-2">
           <div className="flex items-center gap-3">
