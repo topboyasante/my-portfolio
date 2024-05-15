@@ -1,13 +1,17 @@
 import { PROJECTS } from "@/db/projects";
 import Link from "next/link";
 import React from "react";
+import { CiCircleList } from "react-icons/ci";
 import { IoIosLink } from "react-icons/io";
 
 function ProjectSection() {
   return (
     <div className="mb-16">
       <div className="flex flex-row justify-between items-center gap-5">
-        <h5>Projects</h5>
+        <div className="flex items-center gap-3">
+          <CiCircleList />
+          <h5>Projects</h5>
+        </div>
         <Link
           href={"https://github.com/topboyasante"}
           target="_blank"
@@ -23,7 +27,10 @@ function ProjectSection() {
             <div key={item.id}>
               <h6>{item.name}</h6>
               <p className="text-neutral-500 mt-2">{item.about}</p>
-              <Link href={`${item.href}`} className="mt-2 flex items-center gap-1">
+              <Link
+                href={`${item.href}`}
+                className="mt-2 flex items-center gap-1"
+              >
                 <span>
                   <IoIosLink />
                 </span>
