@@ -3,18 +3,18 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="fixed w-full h-[7vh] bg-white">
-      <nav className="flex justify-between items-center max-w-3xl mx-auto h-full px-6 py-3">
+    <div className="fixed w-full h-[7vh] bg-[#16160E]">
+      <nav className="flex justify-between items-center max-w-4xl mx-auto h-full px-6 py-3">
         <div>nk.</div>
-        <div className="text-gray-500">
+        <div className="text-neutral-500">
           <div className="flex items-center gap-3">
             <Link href={`https://www.github.com/topboyasante`} target="_blank">
-              <p className="text-sm hover:text-black ease-in duration-200">
+              <p className="text-sm hover:text-white ease-in duration-200">
                 projects
               </p>
             </Link>
             <Link href={`/blog`}>
-              <p className="text-sm hover:text-black ease-in duration-200">
+              <p className="text-sm hover:text-white ease-in duration-200">
                 posts
               </p>
             </Link>

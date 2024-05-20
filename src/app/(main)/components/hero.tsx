@@ -23,7 +23,7 @@ function HeroSection() {
         <br />
         <p>
           Currently, I&apos;m exploring the world of Backend and Cloud. When
-          I&apos;m not writing code, or buried in my books, you&apos;d find me
+          I&apos;m not writing code, or buried in my books(hardly), you&apos;d find me
           finishing up an episode or two of{" "}
           <Link
             target="_blank"

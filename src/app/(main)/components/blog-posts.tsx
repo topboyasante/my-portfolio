@@ -17,7 +17,7 @@ async function BlogPosts() {
         </div>
         <Link
           href={"/blog"}
-          className="text-neutral-500 underline  hover:text-black ease-in-out duration-500"
+          className="text-neutral-500 underline hover:text-white ease-in-out duration-500"
         >
           <p className="text-sm">View Posts</p>
         </Link>
@@ -26,16 +26,15 @@ async function BlogPosts() {
       <div>
         {recentBlogs.map((item) => {
           return (
-            <Link href={`/blog/${item.slug}`} key={item.slug}>
-              <div className="border-b py-3 hover:scale-[1.02] ease-in-out duration-500">
-                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
-                  <h6>{item.frontmatter.title}</h6>
-                </div>
-                <p className="text-neutral-500">
-                  {item.frontmatter.publishDate}
-                </p>
-              </div>
-            </Link>
+            <div
+              key={item.slug}
+              className="flex flex-col sm:flex-row sm:justify-between sm:items-center"
+            >
+              <Link href={`/blog/${item.slug}`} className="hover:underline">
+                <h6>{item.frontmatter.title}</h6>
+              </Link>
+              <p className="text-neutral-500">{item.frontmatter.publishDate}</p>
+            </div>
           );
         })}
       </div>

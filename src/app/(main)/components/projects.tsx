@@ -15,7 +15,7 @@ function ProjectSection() {
         <Link
           href={"https://github.com/topboyasante"}
           target="_blank"
-          className="text-neutral-500 underline hover:text-black ease-in-out duration-500"
+          className="text-neutral-500 underline hover:text-white ease-in-out duration-500"
         >
           <p className="text-sm">My Github</p>
         </Link>
@@ -34,7 +34,7 @@ function ProjectSection() {
                 <span>
                   <IoIosLink />
                 </span>
-                <p className="text-neutral-700 text-sm">{item.href_text}</p>
+                <p className="text-neutral-500 text-sm">{item.href_text}</p>
               </Link>
             </div>
           );
