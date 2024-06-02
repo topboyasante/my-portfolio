@@ -16,23 +16,32 @@ function HeroSection() {
       <br />
       <div>
         <p>
-          Final-year Metallurgical Engineering student at KNUST. Beyond my
-          studies, I&apos;m a software engineer, writing code with JavaScript
-          and Go.
-        </p>
-        <br />
-        <p>
-          Currently, I&apos;m exploring the world of Backend and Cloud. When
-          I&apos;m not writing code, or buried in my books(hardly), you&apos;d find me
-          finishing up an episode or two of{" "}
+          Final-year Metallurgical Engineering student at{" "}
           <Link
             target="_blank"
             href={
-              "https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TKrIsjTLszQwYPQSTkktzkzPSyxJTVEoLi0qyyzLLwIAyo8MHw&q=designated+survivor&oq=designated+survivor&sourceid=chrome&ie=UTF-8"
+              "https://www.google.com/search?gs_ssp=eJzj4tTP1Tcwr8ipijdg9GLNzistLgEAM1QFuA&q=knust&oq=knust&sourceid=chrome&ie=UTF-8"
             }
             className="underline"
           >
-            Designated Survivor
+            KNUST
+          </Link>
+          . Beyond my studies, I&apos;m a software engineer, writing code with
+          JavaScript and Go.
+        </p>
+        <br />
+        <p>
+          Currently, I&apos;m exploring the world of Backend and Cloud Engineering. When
+          I&apos;m not writing code, or buried in my books(hardly), you&apos;d
+          catch me finishing up an episode or two of{" "}
+          <Link
+            target="_blank"
+            href={
+              "https://www.google.com/search?gs_ssp=eJzj4tDP1TcwTzY3MmD04inJSFUozswtKM7PKwYAUTYHdQ&q=the+simpsons&oq=the+simpsons&sourceid=chrome&ie=UTF-8"
+            }
+            className="underline"
+          >
+            The Simpsons
           </Link>
           .
         </p>

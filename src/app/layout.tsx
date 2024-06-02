@@ -1,11 +1,25 @@
 import type { Metadata } from "next";
-import { Inter_Tight } from "next/font/google";
-// import { GeistSans } from "geist/font/sans";
+import local from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/ui/navbar";
 import Footer from "@/components/ui/footer";
 
-const font = Inter_Tight({ subsets: ["latin"] });
+const graphik = local({
+  src: [
+    {
+      path: "../../public/fonts/Graphik-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/Graphik-Medium.ttf",
+      weight: "600",
+      style: "bold",
+    },
+  ],
+  variable: "--font-graphik",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Nana Kwasi Asante",
@@ -19,9 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={font.className}>
+      <body className={graphik.className}>
         <Navbar />
-        <div className="py-[10vh] max-w-4xl mx-auto p-6">{children}</div>
+        <div className="py-[10vh] max-w-3xl mx-auto p-6">{children}</div>
         <Footer />
       </body>
     </html>

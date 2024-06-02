@@ -11,7 +11,7 @@ function ExperienceSection() {
             "https://docs.google.com/document/d/1I8lAmB1oOnAa5HQC2TU3IDwcUTfED6a1/edit?pli=1#heading=h.gjdgxs"
           }
           target="_blank"
-          className="text-neutral-500 underline  hover:text-black dark:hover:text-white ease-in-out duration-500"
+          className="text-neutral-500 underline  hover:text-black dark:hover:text-black ease-in-out duration-500"
         >
           <p className="text-sm">My Resume</p>
         </Link>

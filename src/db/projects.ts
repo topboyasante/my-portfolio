@@ -9,9 +9,9 @@ export const PROJECTS = [
   },
   {
     id: 1,
-    name: "Invxice",
-    about: "REST API for creating invoices. WIP",
-    href: "https://github.com/topboyasante/invxice",
+    name: "Go-Snip",
+    about: "REST API for creating code snippets.",
+    href: "https://github.com/topboyasante/go-snip",
     href_text: "Github",
     stack: ["Go"],
   },
@@ -22,5 +22,22 @@ export const PROJECTS = [
     href: "https://easysell.vercel.app/",
     href_text: "easysell.vercel.app",
     stack: ["React", "NextJS", "Prisma"],
+  },
+];
+
+export const OSS_CONTRIBUTIONS = [
+  {
+    id: 0,
+    name: "Captable",
+    about: "An alternative to Carta, Pully, Angelist and others.",
+    href: "https://www.captable.inc",
+    href_text: "captable.inc",
+  },
+  {
+    id: 1,
+    name: "ClassroomIO",
+    about: "An open source learning management system.",
+    href: "https://www.classroomio.com/",
+    href_text: "classroomio.com",
   },
 ];

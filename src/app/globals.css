@@ -8,7 +8,7 @@
 
 @layer base {
   body {
-    @apply bg-[#16160E] text-white
+    @apply bg-[#ffffff] text-black bg-[url('/noise.png')] bg-[0] bg-size-default
   }
   h1 {
     @apply scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl;
@@ -35,6 +35,9 @@
 
 @layer components {
   .btn {
-    @apply bg-[#202020] text-white px-4 py-2 flex gap-3 items-center hover:scale-105 ease-in-out duration-500 hover:shadow-md;
+    @apply bg-[#202020] text-white px-4 py-2 flex gap-3 items-center hover:shadow-md;
+  }
+  .nav-container{
+    @apply bg-[#ffffff] bg-[url('/noise.png')] bg-[0] bg-size-default
   }
 }
