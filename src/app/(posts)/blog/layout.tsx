@@ -1,4 +1,3 @@
-import BackButton from "@/components/ui/back-button";
 
 export default function RootLayout({
   children,
@@ -7,7 +6,6 @@ export default function RootLayout({
 }>) {
   return (
     <div>
-      <BackButton />
       {children}
     </div>
   );

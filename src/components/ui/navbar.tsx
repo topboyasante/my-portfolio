@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="fixed w-full h-[7vh] nav-container">
       <nav className="flex justify-between items-center max-w-3xl mx-auto h-full px-6 py-3">
-        <div>nk.</div>
+        <Link href={`/`}>nk.</Link>
         <div className="text-neutral-500">
           <div className="flex items-center gap-3">
             <Link href={`https://www.github.com/topboyasante`} target="_blank">
