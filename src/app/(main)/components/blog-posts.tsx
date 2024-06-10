@@ -28,7 +28,7 @@ async function BlogPosts() {
           return (
             <div
               key={item.slug}
-              className="flex flex-col sm:flex-row sm:justify-between sm:items-center"
+              className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-5"
             >
               <Link href={`/blog/${item.slug}`} className="hover:underline">
                 <h6>{item.frontmatter.title}</h6>

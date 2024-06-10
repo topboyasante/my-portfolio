@@ -31,17 +31,17 @@ function HeroSection() {
         </p>
         <br />
         <p>
-          Currently, I&apos;m exploring the world of Backend and Cloud Engineering. When
-          I&apos;m not writing code, or buried in my books(hardly), you&apos;d
-          catch me finishing up an episode or two of{" "}
+          Currently, I&apos;m exploring the world of Backend and Cloud
+          Engineering. When I&apos;m not writing code, or buried in my
+          books(hardly), you&apos;d catch me finishing up an episode or two of{" "}
           <Link
             target="_blank"
             href={
-              "https://www.google.com/search?gs_ssp=eJzj4tDP1TcwTzY3MmD04inJSFUozswtKM7PKwYAUTYHdQ&q=the+simpsons&oq=the+simpsons&sourceid=chrome&ie=UTF-8"
+              "https://www.google.com/search?q=invincible&oq=invincible&sourceid=chrome&ie=UTF-8"
             }
             className="underline"
           >
-            The Simpsons
+            Invincible
           </Link>
           .
         </p>
