@@ -3,11 +3,6 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog | Nana Kwasi Asante",
   description: "My Blog",
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
-  },
   openGraph: {
     title: "Nana Kwasi Asante",
     description: "My Blog",

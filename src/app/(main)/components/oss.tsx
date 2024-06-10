@@ -19,10 +19,7 @@ function OSSContributions() {
             <div key={item.id}>
               <h6>{item.name}</h6>
               <p className="text-neutral-500 mt-2">{item.about}</p>
-              <Link
-                href={`${item.href}`}
-                className="mt-2"
-              >
+              <Link href={`${item.href}`} className="mt-2" target="_blank">
                 <div className="flex items-center gap-1 underline text-neutral-500 text-sm hover:text-black ease-in-out duration-200">
                   <span>
                     <IoIosLink />

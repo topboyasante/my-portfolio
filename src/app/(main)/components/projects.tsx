@@ -28,6 +28,7 @@ function ProjectSection() {
               <h6>{item.name}</h6>
               <p className="text-neutral-500 mt-2">{item.about}</p>
               <Link
+                target="_blank"
                 href={`${item.href}`}
                 className="mt-2 flex items-center gap-1 underline"
               >

@@ -24,11 +24,7 @@ const graphik = local({
 export const metadata: Metadata = {
   title: "Nana Kwasi Asante",
   description: "My Software Engineering Portfolio",
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
-  },
+ 
   openGraph: {
     title: "Nana Kwasi Asante",
     description: "My Software Engineering Portfolio",
