@@ -31,12 +31,12 @@ export const metadata: Metadata = {
     siteName: "Nana Kwasi Asante",
     images: [
       {
-        url: "https://nkasante.com/images/v9.jpeg",
+        url: "https://nkasante.com/images/nk.png",
         width: 800,
         height: 600,
       },
       {
-        url: "https://nkasante.com/images/v9.jpeg",
+        url: "https://nkasante.com/images/nk.png",
         width: 1800,
         height: 1600,
         alt: "Nana Kwasi Asante",
