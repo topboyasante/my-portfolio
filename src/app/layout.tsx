@@ -24,6 +24,11 @@ const graphik = local({
 export const metadata: Metadata = {
   title: "Nana Kwasi Asante",
   description: "My Software Engineering Portfolio",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   openGraph: {
     title: "Nana Kwasi Asante",
     description: "My Software Engineering Portfolio",
@@ -31,12 +36,12 @@ export const metadata: Metadata = {
     siteName: "Nana Kwasi Asante",
     images: [
       {
-        url: "https://nkasante.com/images/nk.png",
+        url: "https://nkasante.com/images/nk-dark.png",
         width: 800,
         height: 600,
       },
       {
-        url: "https://nkasante.com/images/nk.png",
+        url: "https://nkasante.com/images/nk-dark.png",
         width: 1800,
         height: 1600,
         alt: "Nana Kwasi Asante",
