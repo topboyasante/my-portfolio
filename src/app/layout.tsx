@@ -24,6 +24,25 @@ const graphik = local({
 export const metadata: Metadata = {
   title: "Nana Kwasi Asante",
   description: "My Software Engineering Portfolio",
+  openGraph: {
+    title: "Nana Kwasi Asante",
+    description: "My Software Engineering Portfolio",
+    url: "https://nkasante.com",
+    siteName: "Nana Kwasi Asante",
+    images: [
+      {
+        url: "/images/v9.jpeg",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "/images/v9.jpeg",
+        width: 1800,
+        height: 1600,
+        alt: "Nana Kwasi Asante",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
