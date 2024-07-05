@@ -23,6 +23,14 @@ export const PROJECTS = [
     href_text: "easysell.vercel.app",
     stack: ["React", "NextJS", "Prisma"],
   },
+  {
+    id: 3,
+    name: "40GraphVille",
+    about: "Website for a photography company.",
+    href: "https://www.40graphville.com/",
+    href_text: "40graphville.com",
+    stack: ["React", "NextJS", "EmailJS"],
+  },
 ];
 
 export const OSS_CONTRIBUTIONS = [
