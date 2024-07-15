@@ -24,7 +24,7 @@ function Navbar() {
             </Link>
             <Link
               href={
-                "https://docs.google.com/document/d/1I8lAmB1oOnAa5HQC2TU3IDwcUTfED6a1/edit?pli=1#heading=h.gjdgxs"
+                "https://docs.google.com/document/d/1MEi35aGzVYPv6WUrado8dF9wmv1NKjQygclH3OUE2Xo/edit?usp=sharing"
               }
               target="_blank"
             >

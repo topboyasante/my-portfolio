@@ -1,3 +1,4 @@
+import BackButton from "@/components/ui/back-button";
 import { parseDate } from "@/utils/dates";
 import { getBlogs } from "@/utils/fetch-mdx";
 import Link from "next/link";
@@ -14,6 +15,7 @@ async function Page() {
 
   return (
     <div>
+      <BackButton />
       <div>
         <h3>Posts</h3>
         <p className="text-neutral-500">{`${blogs.length} ${

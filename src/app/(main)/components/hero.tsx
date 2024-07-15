@@ -37,11 +37,11 @@ function HeroSection() {
           <Link
             target="_blank"
             href={
-              "https://www.google.com/search?q=invincible&oq=invincible&sourceid=chrome&ie=UTF-8"
+              "https://www.google.com/search?q=two+and+a+half+men&sourceid=chrome&ie=UTF-8"
             }
             className="underline"
           >
-            Invincible
+            Two and a Half Men
           </Link>
           .
         </p>
@@ -69,7 +69,7 @@ function HeroSection() {
             </Link>
             <Link
               href={
-                "https://docs.google.com/document/d/1I8lAmB1oOnAa5HQC2TU3IDwcUTfED6a1/edit?pli=1#heading=h.gjdgxs"
+                "https://docs.google.com/document/d/1MEi35aGzVYPv6WUrado8dF9wmv1NKjQygclH3OUE2Xo/edit?usp=sharing"
               }
               target="_blank"
               className="text-2xl"
