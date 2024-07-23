@@ -3,7 +3,7 @@ export const PROJECTS = [
     id: 0,
     name: "MRKT",
     about: "MRKT is a Marketplace to advertise things you want to sell. WIP.",
-    href: "https://github.com/topboyasante/mrkt",
+    href: "https://mrkt-web.vercel.app",
     href_text: "Github",
     stack: [
       "Golang, Gin, Cloudinary, PostgreSQL, Docker, React, NextJS, TypeScript, TailwindCSS",
