@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { BiEnvelope } from "react-icons/bi";
-import { IoIosDocument } from "react-icons/io";
-import { SiDevdotto, SiGithub } from "react-icons/si";
+import { SiDevdotto, SiGithub, SiLinkedin } from "react-icons/si";
 
 function HeroSection() {
   return (
@@ -16,24 +15,13 @@ function HeroSection() {
       <br />
       <div>
         <p>
-          Final-year Metallurgical Engineering student at{" "}
-          <Link
-            target="_blank"
-            href={
-              "https://www.google.com/search?gs_ssp=eJzj4tTP1Tcwr8ipijdg9GLNzistLgEAM1QFuA&q=knust&oq=knust&sourceid=chrome&ie=UTF-8"
-            }
-            className="underline"
-          >
-            KNUST
-          </Link>
-          . Beyond my studies, I&apos;m a software engineer, writing code with
-          JavaScript and Go.
+          Hi! I&apos;m a software engineer, writing code with JavaScript and Go.
         </p>
         <br />
         <p>
-          Currently, I&apos;m exploring the world of Backend and Cloud
-          Engineering. When I&apos;m not writing code, or buried in my
-          books(hardly), you&apos;d catch me finishing up an episode or two of{" "}
+          Currently, I&apos;m exploring the world of Backend Engineering with Golang and Java. When
+          I&apos;m not writing code, you&apos;d catch me finishing up an episode
+          or two of{" "}
           <Link
             target="_blank"
             href={
@@ -45,7 +33,7 @@ function HeroSection() {
           </Link>
           .
         </p>
-        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-5 my-5">
+        <div className="flex flex-row justify-between items-center gap-5 my-5">
           <Link href={"mailto:asantekwasi101@gmail.com"} target="_blank">
             <button className="btn rounded-full">
               <BiEnvelope />
@@ -69,12 +57,12 @@ function HeroSection() {
             </Link>
             <Link
               href={
-                "https://docs.google.com/document/d/1MEi35aGzVYPv6WUrado8dF9wmv1NKjQygclH3OUE2Xo/edit?usp=sharing"
+                "https://www.linkedin.com/in/nana-kwasi-asante-abb32a226/"
               }
               target="_blank"
               className="text-2xl"
             >
-              <IoIosDocument />
+              <SiLinkedin />
             </Link>
           </div>
         </div>

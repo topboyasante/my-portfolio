@@ -15,11 +15,11 @@
 }
 
 .markdown code {
-  @apply bg-gray-200 px-1.5 py-0.5 rounded text-sm font-mono;
+  @apply bg-[#efefd5] px-1.5 py-0.5 rounded text-sm font-mono;
 }
 
 .markdown pre {
-  @apply bg-gray-200 p-4 rounded overflow-x-auto;
+  @apply bg-[#efefd5] p-4 rounded overflow-x-auto;
 }
 
 .markdown a {

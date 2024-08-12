@@ -5,10 +5,10 @@ import Logo from "../../../public/images/nk-logo.png";
 
 function Navbar() {
   return (
-    <div className="fixed w-full h-[7vh] nav-container">
-      <nav className="flex justify-between items-center max-w-3xl mx-auto h-full px-6 py-3">
+    <div className="sticky top-0 w-full px-2 bg-[#fefee3] h-[7vh]">
+      <nav className="flex justify-between items-center max-w-xl mx-auto h-full px-6 py-2 border-b border-b-gray-400">
         <Link href={`/`}>
-          <Image src={Logo} alt="logo" width={25} height={25} />
+          <Image src={Logo} alt="logo" width={25} height={25}/>
         </Link>
         <div className="text-neutral-500">
           <div className="flex items-center gap-3">

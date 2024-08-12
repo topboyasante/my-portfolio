@@ -13,7 +13,7 @@ function OSSContributions() {
         </div>
       </div>
       <br />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 gap-8">
         {OSS_CONTRIBUTIONS.map((item) => {
           return (
             <div key={item.id}>

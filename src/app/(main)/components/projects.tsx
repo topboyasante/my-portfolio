@@ -16,7 +16,7 @@ function ProjectSection() {
         <Link
           href={"https://github.com/topboyasante"}
           target="_blank"
-          className="text-neutral-500 underline hover:text-black ease-in-out duration-500"
+          className="text-neutral-700 underline hover:text-black ease-in-out duration-500"
         >
           <p className="text-sm">My Github</p>
         </Link>
@@ -33,7 +33,7 @@ function ProjectSection() {
                   href={`${item.href}`}
                   className="mt-2 flex items-center gap-1 underline"
                 >
-                  <div className="flex items-center gap-1 underline text-neutral-500 text-sm hover:text-black ease-in-out duration-200">
+                  <div className="flex items-center gap-1 underline text-neutral-700 text-sm hover:text-black ease-in-out duration-200">
                     <span>
                       <IoIosLink />
                     </span>
@@ -41,16 +41,9 @@ function ProjectSection() {
                   </div>
                 </Link>
               </div>
-              <Image
-                src={`${item.img_url}`}
-                alt={`${item.name}`}
-                width={1920}
-                height={720}
-                className="w-full"
-              />
-              <p className="text-neutral-500 mt-2">{item.about}</p>
+              <p className="text-neutral-700 mt-2">{item.about}</p>
               <p className="text-neutral-500 mt-2">
-                <span className="text-black">Stack: </span>
+                <span className="text-black font-semibold">Stack: </span>
                 {item.stack.map((tech, index) => {
                   return <span key={index}>{tech}</span>;
                 })}

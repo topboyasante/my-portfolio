@@ -2,9 +2,9 @@ export const PROJECTS = [
   {
     id: 0,
     name: "MRKT",
-    about: "MRKT is a Marketplace to advertise things you want to sell. WIP.",
+    about: "MRKT is a Marketplace to advertise things you want to sell.",
     href: "https://mrkt-web.vercel.app",
-    href_text: "Github",
+    href_text: "Live Link",
     stack: [
       "Golang, Gin, Cloudinary, PostgreSQL, Docker, React, NextJS, TypeScript, TailwindCSS",
     ],
@@ -13,9 +13,9 @@ export const PROJECTS = [
   {
     id: 1,
     name: "EasySell",
-    about: "EasySell is a Minimalist E-Commerce solution for small businesses. I'm working on v1.1 with Golang and NextJS.",
+    about: "EasySell is a Minimalist E-Commerce solution for small businesses.",
     href: "https://easysell.vercel.app/",
-    href_text: "v1.0",
+    href_text: "Live Link",
     stack: [
       "React, NextJS, TypeScript, TailwindCSS, Prisma, Supabase, Cloudinary",
     ],

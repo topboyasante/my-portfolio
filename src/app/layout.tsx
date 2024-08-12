@@ -55,7 +55,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={graphik.className}>
         <Navbar />
-        <div className="py-[10vh] max-w-screen-md mx-auto p-6">{children}</div>
+        <div className="py-[5vh] max-w-xl mx-auto px-5">{children}</div>
         <Footer />
       </body>
     </html>
